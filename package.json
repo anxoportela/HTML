@@ -1,0 +1,16 @@
+{
+  "name": "HTML",
+  "version": "1.0.0",
+  "description": "SMR APWEB HTML+CSS",
+  "main": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anxoportela/HTML.git"
+  },
+  "author": "Anxo Portela-Insua Blanco",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/anxoportela/HTML/issues"
+  },
+  "homepage": "https://github.com/anxoportela/HTML#readme"
+}
