@@ -3,28 +3,26 @@
  * e-Mail: anxoportela@gmail.com
  * Fecha: 02/10/2018 - 18:54:10
  * Versión: 1.0
- * 
+ *
  * sin título.css
  */
 
-/* Etiquetas */
 h2 {
-	color:lightcoral;
+  color: lightcoral;
 }
 
 span {
-	font-weight: bold;
+  font-weight: bold;
 }
 
-/* Clases */
-.amarillo{
-	background: yellow;
+.amarillo {
+  background: yellow;
 }
 
 .cuadrado {
-	list-style-type: square;
+  list-style-type: square;
 }
 
 .letras {
-	list-style-type: upper-alpha;
+  list-style-type: upper-alpha;
 }

@@ -3,37 +3,37 @@
  * e-Mail: anxoportela@gmail.com
  * Fecha: 21/09/2018 - 01:19:40
  * Versión: 1.0
- * 
+ *
  * Primeira paxina HTML+CSS.css
  */
- 
-/* Etiquetas */  
-h1 { 
-	color: red;
-	text-align: center;
-	}
-	
-h2 { 
-	color: red;
-	text-align: right;
-	}
 
-h3 { 
-	color: red;
-	text-align: left;
-	}
+/* Etiquetas */
+h1 {
+  color: red;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  text-align: right;
+}
+
+h3 {
+  color: red;
+  text-align: left;
+}
 
 p {
-	color: red;
-	text-align: left;
-	}
+  color: red;
+  text-align: left;
+}
 
 i {
-	color: red;
-	text-align: left;
-	}
+  color: red;
+  text-align: left;
+}
 
 /* Identificadores */
 #hr3 {
-	width: 50%;
-	}
+  width: 50%;
+}

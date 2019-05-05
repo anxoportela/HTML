@@ -3,55 +3,57 @@
  * e-Mail: anxoportela@gmail.com
  * Fecha: 09/10/2018 - 18:57:37
  * Versión: 1.0
- * 
+ *
  * aemet.css
  */
 
-/* Etiquetas */
 body {
-	background: #EFE9E0;
+  background: #efe9e0;
 }
 
 h2 {
-	color: #705020;
-	font-weight: bold;
+  color: #705020;
+  font-weight: bold;
 }
 
 h3 {
-	color: #705020;
-	font-weight: bold;
+  color: #705020;
+  font-weight: bold;
 }
 
-a:link,a:visited,a:hover {
-	text-decoration:none;
-}
-
-/* Identificadores */
-#coruna {
-	color: #2D2DDE;
-	font-weight: bold;
-}
-#lugo {
-	color: #FFA500;
-	font-weight: bold;
-}
-#ourense {
-	color: #E05D19;
-	font-weight: bold;
-}
-#pontevedra {
-	color: #3D713D;
-	font-weight: bold;
-}
-
-/* Clases */
-.imagen {
-	border: 3px dashed #705020;
-	border-radius: 9px 9px 9px 9px;
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
 }
 
 .coruna {
-	list-style-type: circle;
+  color: #2d2dde;
+  font-weight: bold;
+}
+
+.lugo {
+  color: #ffa500;
+  font-weight: bold;
+}
+
+.ourense {
+  color: #e05d19;
+  font-weight: bold;
+}
+
+.pontevedra {
+  color: #3d713d;
+  font-weight: bold;
+}
+
+.imagen {
+  border: 3px dashed #705020;
+  border-radius: 9px 9px 9px 9px;
+}
+
+#coruna {
+  list-style-type: circle;
 }
 
 .grid-container {

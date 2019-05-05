@@ -3,15 +3,14 @@
  * e-Mail: anxoportela@gmail.com
  * Fecha: 16/10/2018 - 18:21:20
  * Versión: 1.0
- * 
+ *
  * selectores_ii.css
  */
-
- html {
+html {
   background-color: #fef7f2;
- }
+}
 
- body {
+body {
   width: 700px;
   margin: 6px auto 0;
   border-top: solid 3px #8e8e8e;
@@ -19,35 +18,44 @@
   font-size: 13px;
   position: relative;
   font-family: Times, "Times New Roman", serif;
-  }
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-size: 0.875rem;
+  display: block;
+  line-height: 27px;
+}
 
 a:link {
   color: #484848;
   text-decoration: none;
-  }
+}
 
-a:hover,a:visited {
+a:hover,
+a:visited {
   text-decoration: underline;
-  }
+}
 
 p {
   margin: 0 0 13px 0;
   text-align: justify;
   line-height: 1em;
-  }
+}
 
 h1 {
   text-shadow: #fff 1px 1px;
   font-family: LeagueGothic, Tahoma, Geneva, sans-serif;
   text-transform: uppercase;
   line-height: 1;
-  }
+}
 
 h2 {
   font-family: LeagueGothic, Tahoma, Geneva, sans-serif;
   padding: 7px 0 0 0;
   margin: 0;
-  }
+}
 
 body > header {
   border-top: solid 1px #8e8e8e;
@@ -55,37 +63,42 @@ body > header {
   margin: 1px auto;
   padding-top: 8px;
   text-align: center;
-  
+}
+
+main h1 {
+  font-size: 22px;
+  margin: 10px 0 8px 0;
 }
 
 body > header h1 {
-    font-family: "Times New Roman", Times, serif;
-    font-size: 60px;
-    position: relative;
-    margin: 10px 0 0 0;
-    font-weight: normal;
-    line-height: .9; }
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+  position: relative;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+  line-height: 0.9;
+}
 
-body > header h1 span{
-    position: absolute;
-    left: 40px;
-    top: 40%;
-    font-size: 30%; 
+body > header h1 span {
+  position: absolute;
+  left: 40px;
+  top: 40%;
+  font-size: 30%;
 }
 
 body > header h1 a:link {
-    text-decoration: none; 
+  text-decoration: none;
 }
 
 body > header h1 a:hover {
-    text-decoration: none; 
+  text-decoration: none;
 }
 
 body > header p {
-    line-height: 29px;
-    font-size: 12px;
-    font-size: 0.75rem;
-    margin: 0; 
+  line-height: 29px;
+  font-size: 12px;
+  font-size: 0.75rem;
+  margin: 0;
 }
 
 .tagline {
@@ -96,71 +109,58 @@ body > header p {
   text-align: center;
   text-shadow: none;
   font-weight: normal;
-  line-height: 2; 
+  line-height: 2;
 }
 
 nav {
   border-top: double 3px #8e8e8e;
-  text-align: center; 
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    white-space: nowrap;
-    text-align: center;
-    width: 10.2em; 
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  white-space: nowrap;
+  text-align: center;
+  width: 10.2em;
 }
 
-nav li{
-    display: inline-block;
-    padding: 0 1em; 
-}
-
-nav a {
-    text-transform: uppercase;
-    font-size: 13px;
-    font-size: 0.875rem;
-    display: block;
-    line-height: 27px; 
+nav li {
+  display: inline-block;
+  padding: 0 1em;
 }
 
 main {
   margin: 1px 0 0 0;
   border-top: solid 1px #8e8e8e;
   padding: 15px 0;
-  clear: both; }
+  clear: both;
+}
 
 main > div:nth-child(1) {
-  padding: 8px;  
+  padding: 8px;
 }
 
 main > div:first-child p:nth-child(odd)::first-letter {
-  font-size: 2em;    
+  font-size: 2em;
 }
 
 main > div:nth-child(2) {
   padding: 8px;
-  background-color: rgba(100,100,100,0.1);	
+  background-color: rgba(100, 100, 100, 0.1);
 }
 
 #ac1 p:not(:last-of-type) {
   padding-bottom: 8px;
-  border-bottom: 1px dashed #8e8e8e;  	
+  border-bottom: 1px dashed #8e8e8e;
 }
 
 main > div:first-of-type h1 {
   font-size: 33px;
   padding: 0 0 4px 0;
   letter-spacing: -1px;
-  text-align: left; 
-}
-
-main h1 {
-  font-size: 22px;
-  margin: 10px 0 8px 0; 
-  
+  text-align: left;
 }
 
 article h2 {
@@ -170,5 +170,5 @@ article h2 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   text-shadow: none;
-  text-align: center; 
+  text-align: center;
 }

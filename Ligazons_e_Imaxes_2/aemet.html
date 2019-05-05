@@ -1,68 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 <!--
-   Alumno: Anxo Portela-Insua Blanco
-   e-Mail: anxoportela@gmail.com
-   Fecha: 09/10/2018 - 18:17:17
-   Versión: 1.0
-   
-   aemet.html
+
+		aemet.html
+
+		Copyright 2019 Anxo Portela-Insua Blanco <anxoportela@gmail.com>
+
+		This program is free software; you can redistribute it and/or modify
+		it under the terms of the GNU General Public License as published by
+		the Free Software Foundation; either version 2 of the License, or
+		(at your option) any later version.
+
+		This program is distributed in the hope that it will be useful,
+		but WITHOUT ANY WARRANTY; without even the implied warranty of
+		MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+		GNU General Public License for more details.
+
+		You should have received a copy of the GNU General Public License
+		along with this program; if not, write to the Free Software
+		Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+		MA 02110-1301, USA.
+
 -->
 
-<!DOCTYPE html>
-<html lang="es">
-
 <head>
-<meta charset="utf-8" />
-<title>O tempo en Galicia</title>
-<meta name="Author" content="Anxo Portela-Insua Blanco" />
-<link rel="stylesheet" type="text/css" href="aemet.css">
+  <meta charset="utf-8" />
+  <title>O tempo en Galicia</title>
+  <meta name="Author" content="Anxo Portela-Insua Blanco" />
+  <link rel="stylesheet" type="text/css" href="aemet.css">
 </head>
 
 <body>
-<div class="grid-container">
-<div class="grid-item">	
-<h2>O tempo por provincias</h2>
-<img src="mapa-de-galicia.gif" class="imagen" usemap="#coordenadas" />
-<map name="coordenadas">
-	<area shape="poly" coords="226,35,189,148,191,187,178,201,100,225,70,247,41,188,43,151,61,123,149,93,154,77,203,39" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/coruna-a-id15030" target="_blank" title="A Coruña">
-	<area shape="poly" coords="186,200,190,217,200,218,192,245,141,259,163,310,88,354,78,254,98,226,162,202" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/pontevedra-id36038" target="_blank" title="Pontevedra">
-	<area shape="poly" coords="226,49,281,96,313,147,322,190,302,210,274,268,232,269,196,245,203,215,190,213,199,129" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/lugo-id27028" target="_blank" title="Lugo">
-	<area shape="poly" coords="235,275,267,269,279,285,307,244,341,275,303,323,249,346,204,334,175,354,183,310,144,259,187,250" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ourense-id32054" target="_blank" title="Ourense">
-</div>
-<div class="grid-item">
-<h2>O tempo por localidades</h2>
-<details>
-	<summary id="coruna">A coruña</summary>
-	<ul id="coruna" class="coruna">
-		<li><a id="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/abegondo-san-marco-id15001" target='_blank'>Abegondo</a></li>
-		<li><a id="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ames-bertamirans-id15002" target='_blank'>Ames</a></li>
-		<li><a id="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/aranga-ponte-aranga-id15003" target='_blank'>Aranga</a></li>
-		<li><a id="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ares-id15004" target='_blank'>Ares</a></li>
-		<li><a id="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/arteixo-baiuca-a-id15005" target='_blank'>Arteixo</a></li>
-	</ul>
-</details>
-<details>
-	<summary id="lugo">Lugo</summary>
-</details>
-<details>
-	<summary id="ourense">Ourense</summary>
-</details>
-<details>	
-	<summary id="pontevedra">Pontevedra</summary>
-</details>
-</div>
-<div class="grid-item">
-<h3>O tempo na Coruña</h3>
-<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/coruna-a-id15030?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2'></script><noscript><a target='_blank' style='font-weight: bold;font-size: 1.20em;' href='http://www.aemet.es/es/eltiempo/prediccion/municipios/coruna-a-id15030'>El Tiempo. Consulte la predicción de la AEMET para Coruña, A</a></noscript>
-<h3>O tempo en Pontevedra</h3>
-<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/pontevedra-id36038?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2'></script><noscript><a target='_blank' style='font-weight: bold;font-size: 1.20em;' href='http://www.aemet.es/es/eltiempo/prediccion/municipios/pontevedra-id36038'>El Tiempo. Consulte la predicción de la AEMET para Pontevedra</a></noscript>
-</div>
-<div class="grid-item">
-<h3>O tempo en Lugo</h3>
-<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/lugo-id27028?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2'></script><noscript><a target='_blank' style='font-weight: bold;font-size: 1.20em;' href='http://www.aemet.es/es/eltiempo/prediccion/municipios/lugo-id27028'>El Tiempo. Consulte la predicción de la AEMET para Lugo</a></noscript>
-<h3>O tempo en Ourense</h3>
-<script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/ourense-id32054?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2'></script><noscript><a target='_blank' style='font-weight: bold;font-size: 1.20em;' href='http://www.aemet.es/es/eltiempo/prediccion/municipios/ourense-id32054'>El Tiempo. Consulte la predicción de la AEMET para Ourense</a></noscript>
-</div>
-</div>
+  <div class="grid-container">
+    <div class="grid-item">
+      <h2>O tempo por provincias</h2>
+      <img src="mapa-de-galicia.gif" class="imagen" usemap="#coordenadas" />
+      <map name="coordenadas">
+        <area shape="poly" coords="226,35,189,148,191,187,178,201,100,225,70,247,41,188,43,151,61,123,149,93,154,77,203,39" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/coruna-a-id15030" target="_blank" title="A Coruña">
+        <area shape="poly" coords="186,200,190,217,200,218,192,245,141,259,163,310,88,354,78,254,98,226,162,202" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/pontevedra-id36038" target="_blank" title="Pontevedra">
+        <area shape="poly" coords="226,49,281,96,313,147,322,190,302,210,274,268,232,269,196,245,203,215,190,213,199,129" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/lugo-id27028" target="_blank" title="Lugo">
+        <area shape="poly" coords="235,275,267,269,279,285,307,244,341,275,303,323,249,346,204,334,175,354,183,310,144,259,187,250" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ourense-id32054" target="_blank" title="Ourense">
+      </map>
+    </div>
+    <div class="grid-item">
+      <h2>O tempo por localidades</h2>
+      <details>
+        <summary class="coruna">A coruña</summary>
+        <ul id="coruna" class="coruna">
+          <li><a class="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/abegondo-san-marco-id15001" target="_blank">Abegondo</a></li>
+          <li><a class="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ames-bertamirans-id15002" target="_blank">Ames</a></li>
+          <li><a class="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/aranga-ponte-aranga-id15003" target="_blank">Aranga</a></li>
+          <li><a class="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ares-id15004" target="_blank">Ares</a></li>
+          <li><a class="coruna" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/arteixo-baiuca-a-id15005" target="_blank">Arteixo</a></li>
+        </ul>
+      </details>
+      <details>
+        <summary class="lugo">Lugo</summary>
+      </details>
+      <details>
+        <summary class="ourense">Ourense</summary>
+      </details>
+      <details>
+        <summary class="pontevedra">Pontevedra</summary>
+      </details>
+    </div>
+    <div class="grid-item">
+      <h3>O tempo na Coruña</h3>
+      <script type="text/javascript" src="http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/coruna-a-id15030?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2"></script><noscript><a target="_blank"
+          style="font-weight: bold;font-size: 1.20em;" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/coruna-a-id15030">El Tiempo. Consulte la predicción de la AEMET para Coruña, A</a></noscript>
+      <h3>O tempo en Pontevedra</h3>
+      <script type="text/javascript" src="http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/pontevedra-id36038?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2"></script><noscript><a target="_blank"
+          style="font-weight: bold;font-size: 1.20em;" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/pontevedra-id36038">El Tiempo. Consulte la predicción de la AEMET para Pontevedra</a></noscript>
+    </div>
+    <div class="grid-item">
+      <h3>O tempo en Lugo</h3>
+      <script type="text/javascript" src="http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/lugo-id27028?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2"></script><noscript><a target="_blank"
+          style="font-weight: bold;font-size: 1.20em;" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/lugo-id27028">El Tiempo. Consulte la predicción de la AEMET para Lugo</a></noscript>
+      <h3>O tempo en Ourense</h3>
+      <script type="text/javascript" src="http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/ourense-id32054?w=g4p01110001ohmffffffw450z168x996633tcc9900r0s8n2"></script><noscript><a target="_blank"
+          style="font-weight: bold;font-size: 1.20em;" href="http://www.aemet.es/es/eltiempo/prediccion/municipios/ourense-id32054">El Tiempo. Consulte la predicción de la AEMET para Ourense</a></noscript>
+    </div>
+  </div>
 </body>
 
 </html>

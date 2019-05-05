@@ -3,111 +3,111 @@
  * e-Mail: anxoportela@gmail.com
  * Fecha: 30/10/2018 19:41:02
  * Versión: 1.0
- * 
+ *
  * style.css
  */
 
-/* Etiquetas */
-
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
 
-html{
-	font-family: 'Fira Sans', sans-serif;
-	background-color: #DDDDDD;
+html {
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #ddd;
 }
 
-
-h2{
-	text-shadow: 2px 3px 4px black;
-	border-bottom: 1px solid grey;
-	padding-left: 30px;
-	padding-bottom: 15px;
-	background-image: url("../imagenes/Icono.png");
-	background-repeat: no-repeat;
-	background-position: left top;
+h2 {
+  text-shadow: 2px 3px 4px black;
+  border-bottom: 1px solid grey;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  background-image: url("../imagenes/Icono.png");
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
-a,h2{
-	color: #419C57;
+a,
+h2 {
+  color: #419c57;
 }
 
-a:link,a:visited{
-	text-decoration: none;
+a:link,
+a:visited {
+  text-decoration: none;
 }
 
-nav{
-	font-weight: bold;
-	background-color: #333;
-	margin-top: 15px;
+nav {
+  font-weight: bold;
+  background-color: #333;
+  margin-top: 15px;
 }
 
-nav ul{
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 2;
-	overflow: hidden;
-	width: 950px;
+nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 2px;
+  overflow: hidden;
+  width: 950px;
 }
 
-nav li{
-    float: left;
+nav li {
+  float: left;
 }
 
-nav li a:link,a:visited{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+a:visited,
+nav li a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-nav li a:hover{
-	background-color: grey;
-	text-decoration: underline;
+nav li a:hover {
+  background-color: grey;
+  text-decoration: underline;
 }
 
-table{
-	width: 100%;
+table {
+  width: 100%;
 }
 
-thead{
-	background-color: grey;
+thead {
+  background-color: grey;
 }
 
-td{
-   border: 1px solid grey;
+td {
+  border: 1px solid grey;
 }
 
-footer{
-	   
-	margin-top: 15px;
+footer {
+  margin-top: 15px;
 }
 
 /* Clases */
-.texto-citado{
-	font-weight: bold;
-	font-size: 1.2em;
+.texto-citado {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-.anuncio,section{
-	padding: 5px 10px 5px 10px;
-	border: 1px solid grey;
-	background-color: white;
-	border-radius: 10px;
-	margin-top: 15px;
+.anuncio,
+section {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 15px;
 }
 
-.seleccionado{
-    background-color: #4CAF50;
+.seleccionado {
+  background-color: #4caf50;
 }
 
-.cuerpo{
-	margin: 0 auto;
-	width: 950px;
-	margin-top: 15px;
+.cuerpo {
+  margin: 0 auto;
+  width: 950px;
+  margin-top: 15px;
 }
 
-.titulo{
-	margin: 0 auto;
-	width: 950px;
+.titulo {
+  margin: 0 auto;
+  width: 950px;
 }
