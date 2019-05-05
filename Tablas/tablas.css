@@ -1,0 +1,59 @@
+/*
+ * Alumno: Anxo Portela-Insua Blanco
+ * e-Mail: anxoportela@gmail.com
+ * Fecha: 19/10/2018 - 19:27:40
+ * Versión: 1.0
+ * 
+ * tablas.css
+ */
+ 
+/* Etiquetas */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    table-layout: fixed;
+}
+
+table, th, td {
+    border: 2px solid black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Clases */
+.rojo{
+	background-color: #ff0000;
+}
+
+.naranja{
+	background-color: #ffc000;
+}
+
+.amarillo{
+	background-color: #ffff00;
+}
+
+.verde{
+	background-color: #00b050;
+}
+
+.azul{
+	background-color: #0070c0;
+}
+
+.azulclaro{
+	background-color: #00b0f0;
+}
+
+.violeta{
+	background-color: #7030a0;
+}
+
+.nobordeinf {
+	border-bottom: 0px solid;
+}
+
+.nobordesup {
+	border-top: 0px solid;
+}

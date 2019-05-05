@@ -1,0 +1,30 @@
+/*
+ * Alumno: Anxo Portela-Insua Blanco
+ * e-Mail: anxoportela@gmail.com
+ * Fecha: 02/10/2018 - 18:54:10
+ * Versión: 1.0
+ * 
+ * sin título.css
+ */
+
+/* Etiquetas */
+h2 {
+	color:lightcoral;
+}
+
+span {
+	font-weight: bold;
+}
+
+/* Clases */
+.amarillo{
+	background: yellow;
+}
+
+.cuadrado {
+	list-style-type: square;
+}
+
+.letras {
+	list-style-type: upper-alpha;
+}

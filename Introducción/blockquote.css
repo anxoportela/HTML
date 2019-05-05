@@ -1,0 +1,17 @@
+﻿/*
+ * Alumno: Anxo Portela-Insua Blanco
+ * e-Mail: anxoportela@gmail.com
+ * Fecha: 27/09/2018 - 02:18:41
+ * Versión: 1.0
+ * 
+ * blockquote.css
+ */
+
+/* Etiquetas */ 
+hr{
+width: 135px;
+height: 2x;
+border: 7px solid green;
+border-radius: 7px 7px 7px 7px;
+}
+

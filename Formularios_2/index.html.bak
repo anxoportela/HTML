@@ -1,0 +1,97 @@
+<!--
+   Alumno: Anxo Portela-Insua Blanco
+   e-Mail: anxoportela@gmail.com
+   Fecha: 22/11/2018 - 19:26:04
+   Versión: 1.0
+
+   index.html
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="utf-8" />
+<title>sin título</title>
+<meta name="generator" content="Geany 1.33" />
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+<form action="" method="get">
+
+<fieldset class="datos">
+<legend>Datos persoais</legend>
+<label for="nombre">Nome:</label> <input type="text" id="nombre" name="nombre" placeholder="Escribe o teu nome" autofocus />
+<label for="apellidos">Apelidos:</label> <input type="text" id="apellidos" name="apellidos" placeholder="Escribe os teus apelidos" /><br>
+<label for="fecha">Data de nacemento:</label> <input type="date" id="fecha" name="fecha" />
+<label for="ciudad">Lugar de nacemento:</label> <input type="text" id="ciudad" name="ciudad" /><br>
+<label for="dni">DNI:</label> <input type="text" id="dni" name="dni" placeholder="DNI" pattern="[0-9]{8}[A-Z]"/>
+<label >Sexo:</label>
+<input type="radio" id="home" value="home"><label for="home">Home</label>
+<input type="radio" id="muller" value="muller"><label for="muller">Muller</label><br>
+<label for="cm">Estatura (en cm):</label> <input type="number" id="cm" name="cm" min="0" max="220" step="any" />
+<label for="kg">Peso (en kg):</label> <input type="number" id="kg" name="kg" min="0" max="150" step="any" />
+<label for="cor">Cor de pel:</label> <input type="color" id="cor" name="cor" value="#000000" /><br>
+<label for="email">Correo eléctronico:</label> <input type="email" id="email" name="email" />
+<label for="web">Web persoal:</label> <input type="url" id="web" name="web" /><br>
+<label for="tel">Teléfono:</label> <input type="tel" id="tel" name="tel" />
+<label for="mov">Teléfono móbil:</label> <input type="tel" id="mov" name="mov" /><br>
+<label for="pass1">Contrasinal:</label> <input type="password" id="pass1" name="pass1" placeholder="Contrasinal" />
+<label for="pass2">Repetir contrasinal:</label> <input type="password" id="pass2" name="pass2" placeholder="Contrasinal" /><br>
+<label for="foto">Fotografía:</label> <input type="file" id="foto" name="foto" />
+</fieldset>
+
+<fieldset class="direccion">
+<legend>Dirección</legend>
+<label for="via">Via:</label> <input type="text" id="via" name="via" />
+<label for="dir">Enderezo:</label> <input type="text" id="dir" name="dir" />
+<label for="num">Nº:</label> <input type="number" id="num" name="num" />
+<label for="pis">Piso:</label> <input type="text" id="pis" name="pis" pattern="[1-9][A-Z]|1[0-2][A-Z]" /><br>
+<label for="cp">C.P.:</label> <input type="text" id="cp" name="cp" />
+<label for="pobo">Poboación:</label> <input type="text" id="pobo" name="pobo" />
+<label for="provin">Provincia:</label>
+<select name="provin" id="provin">
+	<optgroup label="Galicia">
+		<option value="1">A Coruña</option>
+		<option value="2">Lugo</option>
+		<option value="3">Ourense</option>
+		<option value="4">Pontevedra</option>
+	</optgroup>
+	<optgroup label="Euskadi">
+		<option value="5">Arava</option>
+		<option value="6">Bizkaia</option>
+		<option value="7">Guipúzcoa</option>
+	</optgroup>
+	<optgroup label="Extremadura">
+		<option value="8">Cáceres</option>
+		<option value="9">Badajoz</option>
+	</optgroup>
+	<optgroup label="Cataluña">	
+		<option value="10">Barcelona</option>
+		<option value="11">Tarragona</option>
+		<option value="12">Lleida</option>
+		<option value="13">Girona</option>
+	</optgroup>
+	<optgroup label="Aragón">
+		<option value="14">Huesca</option>
+		<option value="15">Zaragoza</option>
+		<option value="16">Teruel</option>
+	</optgroup>
+	<optgroup label="Navarra">
+		<option value="17">Navarra</option>
+	</optgroup>
+</select>
+</fieldset>
+
+<fieldset class="aficiones">
+<legend>Aficións</legend>
+<label><input type="checkbox" id="musica" name="musica" />Música</label> <label><input type="checkbox" id="deportes" name="deportes" />Deportes</label> <label><input type="checkbox" id="natureza" name="natureza" />Natureza</label> <label><input type="checkbox" id="videoxogos" name="videoxogos" />Videoxogos</label> <label><input type="checkbox" id="tecno" name="tecno" />Tecnoloxía</label> <label><input type="checkbox" id="cine" name="cine" />Cine</label> <label><input type="checkbox" id="origami" name="origami" />Origami</label> <label><input type="checkbox" id="manga" name="manga" />Manga</label> <label><input type="checkbox" id="fotografia" name="fotografia" />Fotografía</label> <label><input type="checkbox" id="cocina" name="cocina" />Cociña</label> <label><input type="checkbox" id="brico" name="brico" />Bricolaxe</label> <label><input type="checkbox" id="medita" name="medita" />Meditación</label><br>
+<label for="otras">Outras aficións:</label>
+<textarea name="texto" id="otras" name="otras" rows="4" cols="40" placeholder="Escribe outras aficións"></textarea>
+</fieldset>
+
+</form>
+</body>
+
+</html>

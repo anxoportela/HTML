@@ -1,0 +1,43 @@
+﻿/*
+ * Alumno: Anxo Portela-Insua Blanco
+ * e-Mail: anxoportela@gmail.com
+ * Fecha: 27/09/2018 - 01:45:16
+ * Versión: 1.0
+ * 
+ * selectores.css
+ */
+
+/* Etiquetas */
+html{
+font-family: 1em/1.3 Arial, Helvetica, sans-serif;
+}
+
+p{
+color: #555555;
+}
+
+a{
+color: #CC3300;
+}
+
+em{
+background: #FFFFCC; 
+padding: .1em;
+}
+
+/* Identificadores */
+#primero p{
+color: #336699;
+}
+
+/* Clases */
+.especial{
+background: #FFCC99; 
+border: 1px solid #FF9900; 
+padding: .1em;
+}
+
+.normal span{
+font-weight: bold;
+}
+

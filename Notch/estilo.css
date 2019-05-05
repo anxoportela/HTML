@@ -1,0 +1,48 @@
+/* Etiquetas */
+main{
+	margin: 0 auto;
+	width: 50%;
+	margin-top: 50px;
+}
+
+/* Identificadores */
+#grande{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	margin: 0 auto;
+}
+
+#trasera{
+	background-color: white;
+	float: left;
+	width: 50%;
+	height: 42px;
+}
+
+#izquierda{
+	background-color: white;
+	float: left;
+	width: 25%;
+	height: 40px;
+	border-radius: 0px 15px 0px 0px;
+	margin-top: 2px;
+}
+
+#centro{
+	background-color: black;
+	padding: 15px;
+	border-radius: 0 0 20px 20px;
+}
+
+#derecha{
+	background-color: white;
+	float: left;
+	width: 25%;
+	height: 40px;
+	border-radius: 15px 0px 0px 0px;
+	margin-top: 2px;
+}
+

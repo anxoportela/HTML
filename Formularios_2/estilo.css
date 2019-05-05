@@ -1,0 +1,81 @@
+/*
+ * Alumno: Anxo Portela-Insua Blanco
+ * e-Mail: anxoportela@gmail.com
+ * Fecha: 22/11/2018 - 19:57:36
+ * Versión: 1.0
+ *
+ * estilo.css
+ */
+
+/* Etiquetas */
+body {
+  background-color: #fbef99;
+}
+
+legend {
+  font-weight: bold;
+}
+
+fieldset br {
+  display: none;
+}
+
+label {
+  display: block;
+  float: left;
+  clear: left;
+  width: 180px;
+  text-align: right;
+  margin-top: 6px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  float: left;
+  margin: 5px;
+  background-color: #d0c38d;
+}
+
+select {
+  display: block;
+  float: left;
+  margin: 5px;
+}
+
+textarea {
+  display: block;
+  float: left;
+  margin-top: 20px;
+  background-color: #d0c38d;
+}
+
+fieldset {
+  float: left;
+  width: 31%;
+  min-width: 400px;
+  height: 550px;
+}
+
+fieldset:nth-child(3) label {
+  text-align: left;
+}
+
+fieldset:nth-child(3) label:last-of-type {
+  margin-top: 15px;
+  display: block;
+  float: left;
+  clear: left;
+  width: 180px;
+  text-align: left;
+}
+
+label[for="home"],
+label[for="muller"] {
+  clear: none;
+  width: initial;
+}
+
+/* Identificadores */
+
+/* Clases */

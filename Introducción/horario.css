@@ -1,0 +1,39 @@
+/*
+ * Alumno: Anxo Portela-Insua Blanco
+ * e-Mail: anxoportela@gmail.com
+ * Fecha: 18/10/2018 - 20:00:07
+ * Versión: 1.0
+ * 
+ * horario.css
+ */
+
+/* Etiquetas */
+th,td {
+	text-align: center;
+}
+
+/* Identificadores */
+#fecha {
+	background-color:grey;
+}
+#sere {
+	background-color:lightblue;
+}
+#eie {
+	background-color:red;
+}
+#sore {
+	background-color:green;
+}
+#web {
+	background-color:orange;
+}
+#segi {
+	background-color:cyan;
+}
+#fol {
+	background-color:lightgreen;
+}
+#recreo {
+	background-color:pink;
+}

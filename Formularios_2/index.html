@@ -1,0 +1,94 @@
+<!--
+   Alumno: Anxo Portela-Insua Blanco   e-Mail: anxoportela@gmail.com
+   Fecha: 22/11/2018 - 19:26:04   Versión: 1.0
+   index.html
+-->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>sin título</title>
+  <meta name="generator" content="Geany 1.33">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+  <form action="" method="get">
+    <fieldset class="datos">
+      <legend>Datos persoais</legend>
+      <label for="nombre">Nome:</label> <input id="nombre" name="nombre" placeholder="Escribe o teu nome" autofocus="" type="text">
+      <label for="apellidos">Apelidos:</label> <input id="apellidos" name="apellidos" placeholder="Escribe os teus apelidos" type="text"><br>
+      <label for="fecha">Data de nacemento:</label> <input id="fecha" name="fecha" type="date">
+      <label for="ciudad">Lugar de nacemento:</label> <input id="ciudad" name="ciudad" type="text"><br>
+      <label for="dni">DNI:</label> <input id="dni" name="dni" placeholder="DNI" pattern="[0-9]{8}[A-Z]" type="text">
+      <label>Sexo:</label>
+      <input id="home" value="home" type="radio"><label for="home">Home</label>
+      <input id="muller" value="muller" type="radio"><label for="muller">Muller</label><br>
+      <label for="cm">Estatura (en cm):</label> <input id="cm" name="cm" min="0" max="220" step="any" type="number">
+      <label for="kg">Peso (en kg):</label> <input id="kg" name="kg" min="0" max="150" step="any" type="number">
+      <label for="cor">Cor de pel:</label> <input id="cor" name="cor" value="#000000" type="color"><br>
+      <label for="email">Correo eléctronico:</label> <input id="email" name="email" type="email">
+      <label for="web">Web persoal:</label> <input id="web" name="web" type="url"><br>
+      <label for="tel">Teléfono:</label> <input id="tel" name="tel" type="tel">
+      <label for="mov">Teléfono móbil:</label> <input id="mov" name="mov" type="tel"><br>
+      <label for="pass1">Contrasinal:</label> <input id="pass1" name="pass1" placeholder="Contrasinal" type="password">
+      <label for="pass2">Repetir contrasinal:</label> <input id="pass2" name="pass2" placeholder="Contrasinal" type="password"><br>
+      <label for="foto">Fotografía:</label> <input id="foto" name="foto" type="file">
+    </fieldset>
+    <fieldset class="direccion">
+      <legend>Dirección</legend>
+      <label for="via">Via:</label> <input id="via" name="via" type="text">
+      <label for="dir">Enderezo:</label> <input id="dir" name="dir" type="text">
+      <label for="num">Nº:</label> <input id="num" name="num" type="number">
+      <label for="pis">Piso:</label> <input id="pis" name="pis" pattern="[1-9][A-Z]|1[0-2][A-Z]" type="text"><br>
+      <label for="cp">C.P.:</label> <input id="cp" name="cp" type="text">
+      <label for="pobo">Poboación:</label> <input id="pobo" name="pobo" type="text">
+      <label for="provin">Provincia:</label>
+      <select name="provin" id="provin">
+        <optgroup label="Galicia">
+          <option value="1">A Coruña</option>
+          <option value="2">Lugo</option>
+          <option value="3">Ourense</option>
+          <option value="4">Pontevedra</option>
+        </optgroup>
+        <optgroup label="Euskadi">
+          <option value="5">Arava</option>
+          <option value="6">Bizkaia</option>
+          <option value="7">Guipúzcoa</option>
+        </optgroup>
+        <optgroup label="Extremadura">
+          <option value="8">Cáceres</option>
+          <option value="9">Badajoz</option>
+        </optgroup>
+        <optgroup label="Cataluña">
+          <option value="10">Barcelona</option>
+          <option value="11">Tarragona</option>
+          <option value="12">Lleida</option>
+          <option value="13">Girona</option>
+        </optgroup>
+        <optgroup label="Aragón">
+          <option value="14">Huesca</option>
+          <option value="15">Zaragoza</option>
+          <option value="16">Teruel</option>
+        </optgroup>
+        <optgroup label="Navarra">
+          <option value="17">Navarra</option>
+        </optgroup>
+      </select>
+    </fieldset>
+    <fieldset class="aficiones">
+      <legend>Aficións</legend>
+      <label><input id="musica" name="musica" type="checkbox">Música</label> <label><input id="deportes" name="deportes" type="checkbox">Deportes</label> <label><input id="natureza" name="natureza" type="checkbox">Natureza</label> <label><input
+          id="videoxogos" name="videoxogos" type="checkbox">Videoxogos</label>
+      <label><input id="tecno" name="tecno" type="checkbox">Tecnoloxía</label>
+      <label><input id="cine" name="cine" type="checkbox">Cine</label> <label><input id="origami" name="origami" type="checkbox">Origami</label> <label><input id="manga" name="manga" type="checkbox">Manga</label> <label><input id="fotografia"
+          name="fotografia" type="checkbox">Fotografía</label>
+      <label><input id="cocina" name="cocina" type="checkbox">Cociña</label> <label><input id="brico" name="brico" type="checkbox">Bricolaxe</label> <label><input id="medita" name="medita" type="checkbox">Meditación</label><br>
+      <label for="otras">Outras aficións:</label>
+      <textarea name="texto" id="otras" rows="4" cols="40" placeholder="Escribe outras aficións"></textarea>
+    </fieldset>
+  </form>
+</body>
+
+</html>
